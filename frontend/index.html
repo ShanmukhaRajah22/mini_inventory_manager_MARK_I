@@ -10,8 +10,8 @@
 <div class="container">
   <h1>📦 Electronics Inventory</h1>
 
-  <div class="card form-card">
-    <h2>Add Item</h2>
+  <div class="card">
+    <h2 id="form-title">Add Item</h2>
 
     <div class="form-grid">
       <input id="name" placeholder="Product name" />
@@ -20,10 +20,15 @@
       <input id="stock" type="number" placeholder="Stock" />
     </div>
 
-    <button onclick="addItem()">Add Item</button>
+    <div class="actions">
+      <button id="saveBtn" onclick="saveItem()">Add Item</button>
+      <button id="cancelBtn" onclick="resetForm()" class="secondary hidden">
+        Cancel
+      </button>
+    </div>
   </div>
 
-  <div class="card list-card">
+  <div class="card">
     <h2>Items</h2>
     <div id="items" class="items"></div>
   </div>
