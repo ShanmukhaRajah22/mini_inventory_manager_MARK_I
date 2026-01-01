@@ -100,3 +100,28 @@ button:hover {
 .delete-btn:hover {
   background: #e60000;
 }
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.secondary {
+  background: #999;
+}
+
+.secondary:hover {
+  background: #777;
+}
+
+.hidden {
+  display: none;
+}
+
+.edit-btn {
+  background: #ffa500;
+}
+
+.edit-btn:hover {
+  background: #e69500;
+}
