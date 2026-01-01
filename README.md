@@ -1,6 +1,6 @@
 # 🧾 Mini Inventory Manager (Mark I)
 
-A full-stack inventory management application built with a Rust (Axum) backend and a vanilla HTML/CSS/JavaScript frontend.  
+An inventory management application built with a Rust (Axum) backend and a vanilla HTML/CSS/JavaScript frontend.  
 The project demonstrates real-world backend architecture, RESTful CRUD APIs, and a responsive, interactive UI for managing electronic products.
 
 ---
