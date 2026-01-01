@@ -19,8 +19,8 @@ The project demonstrates real-world backend architecture, RESTful CRUD APIs, and
 
 ## 🖥️ Screenshots
 
-![Alt UI](https://github.com/ShanmukhaRajah22/mini_inventory_manager_MARK_I/blob/main/Screenshot%202026-01-01%20215636.png)
-
+![Alt ADD](https://github.com/ShanmukhaRajah22/mini_inventory_manager_MARK_I/blob/main/Screenshot%202026-01-01%20221736.png)
+![Alt EDIT](https://github.com/ShanmukhaRajah22/mini_inventory_manager_MARK_I/blob/main/Screenshot%202026-01-01%20221747.png)
 ---
 
 ## 🧱 Project Structure
