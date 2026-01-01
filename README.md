@@ -1,24 +1,30 @@
-🧾 Mini Inventory Manager (Mark I)
+# 🧾 Mini Inventory Manager (Mark I)
 
-A full-stack inventory management application built with a Rust (Axum) backend and a vanilla HTML/CSS/JavaScript frontend.
+A full-stack inventory management application built with a Rust (Axum) backend and a vanilla HTML/CSS/JavaScript frontend.  
 The project demonstrates real-world backend architecture, RESTful CRUD APIs, and a responsive, interactive UI for managing electronic products.
 
-✨ Features
+---
 
--Full CRUD operations (Create, Read, Update, Delete)
--RESTful API built with Axum (Rust)
--Shared application state management
--Clean, modular backend structure
--Modern, colorful, responsive frontend UI
--Frontend–backend communication via JSON over HTTP
--No frameworks on the frontend (pure HTML/CSS/JS)
+## ✨ Features
 
-🖥️ Screenshots
+- Full CRUD operations (Create, Read, Update, Delete)
+- RESTful API built with Axum (Rust)
+- Shared application state management
+- Clean, modular backend structure
+- Modern, colorful, responsive frontend UI
+- Frontend–backend communication via JSON over HTTP
+- No frameworks on the frontend (pure HTML/CSS/JS)
+
+---
+
+## 🖥️ Screenshots
+
 ![Alt UI](https://github.com/ShanmukhaRajah22/mini_inventory_manager_MARK_I/blob/main/Screenshot%202026-01-01%20215636.png)
 
+---
 
-🧱 Project Structure
-
+## 🧱 Project Structure
+```
 inventory-backend/
 ├── frontend/              # HTML / CSS / JS frontend
 │   ├── index.html
@@ -37,15 +43,22 @@ inventory-backend/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
-Endpoints
-Method	Endpoint	Description
-GET	/items	Get all items
-GET	/items/:id	Get item by ID
-POST	/items	Create new item
-PUT	/items/:id	Update item
-DELETE	/items/:id	Delete item
-Example Item
+---
+
+## 🛠️ Endpoints
+
+| Method | Endpoint       | Description        |
+|--------|-----------------|--------------------|
+| GET    | /items         | Get all items      |
+| GET    | /items/:id     | Get item by ID     |
+| POST   | /items         | Create new item    |
+| PUT    | /items/:id     | Update item        |
+| DELETE | /items/:id     | Delete item        |
+
+### Example Item
+```json
 {
   "id": "uuid",
   "name": "iPhone 14",
@@ -53,70 +66,64 @@ Example Item
   "price": 70000,
   "stock": 5
 }
+```
 
-🛠️ Tech Stack
-Backend
+---
 
-Rust
+## 🛠️ Tech Stack
 
-Axum (async web framework)
+### Backend
+- **Rust**
+- **Axum** (async web framework)
+- **Tokio** (async runtime)
+- **Serde** (JSON serialization)
 
-Tokio (async runtime)
+### Frontend
+- **HTML5**
+- **CSS3**
+- **JavaScript** (Fetch API)
 
-Serde (JSON serialization)
+---
 
-Frontend
+## ▶️ How to Run Locally
 
-HTML5
-
-CSS3
-
-JavaScript (Fetch API)
-
-▶️ How to Run Locally
-Backend
+### Backend
+```bash
 cargo run
+```
+Server runs at:  
+`http://localhost:3000`
 
+### Frontend
+Open `frontend/index.html` directly in the browser.
 
-Server runs at:
+---
 
-http://localhost:3000
+## 📈 What This Project Demonstrates
+- Real backend routing and state management in Rust
+- Clean separation of concerns (routes, handlers, models)
+- API-first backend design
+- Practical frontend–backend integration
+- Understanding of scalability fundamentals (stateless APIs)
 
-Frontend
+---
 
-Open frontend/index.html directly in the browser.
+## 🔮 Future Improvements
+- Database integration (PostgreSQL + SQLx)
+- Authentication & authorization
+- Edit (PUT) support from UI
+- Pagination & filtering
+- Serve frontend statically from Rust backend
+- Deployment (Docker / Fly.io / Render)
 
-📈 What This Project Demonstrates
+---
 
-Real backend routing and state management in Rust
+## 📄 License
+This project is licensed under the **MIT License**.
 
-Clean separation of concerns (routes, handlers, models)
+---
 
-API-first backend design
+## 👤 Author
 
-Practical frontend–backend integration
-
-Understanding of scalability fundamentals (stateless APIs)
-
-🔮 Future Improvements
-
-Database integration (PostgreSQL + SQLx)
-
-Authentication & authorization
-
-Edit (PUT) support from UI
-
-Pagination & filtering
-
-Serve frontend statically from Rust backend
-
-Deployment (Docker / Fly.io / Render)
-
-📄 License
-
-This project is licensed under the MIT License.
-
-👤 Author
-
-Rajah (Shanmukha Rajah)
+**Rajah** (Shanmukha Rajah)  
 Backend-focused developer exploring Rust for scalable systems.
